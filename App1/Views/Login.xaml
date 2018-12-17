@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="App1.Views.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,631,235">
+		<Button Content="Enumerate Users" HorizontalAlignment="Left" Margin="155,22,0,0" VerticalAlignment="Top" Height="46" Width="168" Click="Button_Click"/>
+		<TextBlock HorizontalAlignment="Left" Margin="27,25,0,0" Text="Hello Test" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="102" SelectionChanged="TextBlock_SelectionChanged" FontSize="20"/>
+		<TextBox x:Name="TxtBoxResult" HorizontalAlignment="Left" Margin="125,158,0,0" Text="TextBox" VerticalAlignment="Top" RenderTransformOrigin="-3.907,-1.047" Width="348"/>
+
+	</Grid>
+</Page>
